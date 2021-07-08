@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AnhHoangTuan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css'>
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- loading -->
+        <div id="loading"><span id="loading_content">loading...</span></div>
+        <!-- navbar -->
+        <header id="main_header">
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+              <div class="container-fluid">
+                <a class="navbar-brand fs-2" href="#">VN Express</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                  <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="select_post text-uppercase nav-item pe-3"><a id="business" class="dropdown-item set-hover nav-link" href="#" data-search="business">Kinh tế - Tài chính</a></li>
+                    <li class="select_post text-uppercase nav-item pe-3"><a id="technology" class="dropdown-item set-hover nav-link" href="#" data-search="technology">Công nghệ</a></li>
+                    <li class="select_post text-uppercase nav-item pe-3"><a id="sports" class="dropdown-item set-hover nav-link" href="#" data-search="sports">Thể thao</a></li>
+                    <li class="select_post text-uppercase nav-item pe-3"><a id="entertainment" class="dropdown-item set-hover nav-link" href="#" data-search="entertainment">Giải trí</a></li>
+                    <li class="select_post text-uppercase nav-item pe-3"><a id ="health" class="dropdown-item set-hover nav-link" href="#" data-search="health">Y tế - Sức khỏe</a></li>
+                    <li class="select_post text-uppercase nav-item pe-3"><a id ="science" class="dropdown-item set-hover nav-link" href="#" data-search="science">Khoa học</a></li>
+                  </ul>
+                  <form class="d-flex" id="form_search">
+                    <input id="nav_search" class="form-control fs-4 me-2" type="search" placeholder="Enter to search" aria-label="Search">
+                    <button id="btnSearch" class="btn btn-outline-secondary" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+        </header>
+    </div>
+    <!-- body -->
+    <main id="body_main" class="mt-5">
+        <div class="container">
+            <h3 id="title">Bài viết mới nhất</h3>
+              <div id="post_item">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+
+                </div>
+              </div>
+
+        </div>
+    </main>
+    <!-- foooter -->
+    <footer class="main__footer">
+            <div class="grid wide">
+                <div class="grow">
+                    <div class="gcol pc2-5 pcl2-5 t6 m12 main__footer-container">
+                        <h4 class="main__footer-tiltle">CHĂM SÓC KHÁCH HÀNG</h4>
+                        <p class="main__footer-item">
+                            <a href="" class="main__footer-link">
+                                Trung tâm trợ giúp
+                            </a>
+                        </p>
+                        <p class="main__footer-item">
+                            <a href="" class="main__footer-link">
+                                Hướng dẫn đăng bài
+                            </a>
+                        </p>
+                        <p class="main__footer-item">
+                            <a href="" class="main__footer-link">
+                                Chính sách quản lý
+                            </a>
+                        </p>
+                        <p class="main__footer-item">
+                            <a href="" class="main__footer-link">
+                                Trung tâm trợ giúp
+                            </a>
+                        </p>
+                    </div>
+                    <div class="gcol pc2-5 pcl2-5 t6 m12 main__footer-container">
+                        <h4 class="main__footer-tiltle">VỀ CHÚNG TÔI</h4>
+                        <p class="main__footer-item">
+                            <a href="" class="main__footer-link">
+                                Giới thiệu về VN Express - LG Vina
+                            </a>
+                        </p>
+                        <p class="main__footer-item">
+                            <a href="" class="main__footer-link">
+                                Chính sách thanh toán
+                            </a>
+                        </p>
+                        <p class="main__footer-item">
+                            <a href="" class="main__footer-link">
+                                Điều Khoản chính sách
+                            </a>
+                        </p>
+                    </div>
+                    <div class="gcol pc2-5  pc-o-2-5 pcl2-5 pcl-o-2-5 t6 m12 main__footer-container">
+                        <h4 class="main__footer-tiltle">THEO DÕI CHÚNG TÔI TRÊN</h4>
+                        <p class="main__footer-item">
+                            <a href="" class="main__footer-link">
+                                <i class="fab fa-facebook main__footer-icon"></i>
+                                Facebook
+                            </a>
+                        </p>
+                        <p class="main__footer-item">
+                            <a href="" class="main__footer-link">
+                                <i class="fab fa-instagram main__footer-icon"></i>
+                                Instagram
+                            </a>
+                        </p>
+                    </div>
+                    <div class="gcol pc2-5 pcl2-5 t6 m12 main__footer-container">
+                        <h4 class="main__footer-tiltle">TẢI ỨNG DỤNG ĐỌC BÁO - LG VINA</h4>
+                        <div class="main__footer-download">
+                            <img src="./image/QR.png" alt="" class="main__footer-qr">
+                            <div class="main__footer-app">
+                                <a href="" class="main__footer-app-link">
+                                    <img src="./image/appstore.png" alt="" class="main__footer-appst">
+                                </a>
+                                <a href="" class="main__footer-app-link">
+                                    <img src="./image/ggplay.png" alt="" class="main__footer-appst">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gcol pc12 pcl12 t12 m12 name_footer">
+                        <p>DesignBy <a href="#">AnhTuanHoang</a></p>
+                    </div>    
+                </div>
+            </div>
+        </footer>
+    <!-- Footer -->
+</body>
+<script src='https://cdn.boomcdn.com/libs/wow-js/1.3.0/wow.min.js'></script>
+<script type="text/javascript" src="./js/index.js"></script>
+<script type="text/javascript">
+    new WOW().init();
+</script>
+</html>
